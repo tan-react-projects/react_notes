@@ -1,0 +1,89 @@
+._fchildren{
+	/*flex: auto;*/
+	display: inline-block;
+  width: 100%;
+  height: 120px;
+  overflow-y: auto;
+	border: 5px solid white; 
+  -webkit-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1); 
+  -moz-box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1); 
+  box-shadow: 
+    inset 0 0 8px  rgba(0,0,0,0.1),
+          0 0 16px rgba(0,0,0,0.1); 
+  background: rgba(255,255,255,0.5);
+  margin: 10px 5px 5px 0;
+  word-wrap: break-word;
+  vertical-align:top;
+  text-align: left;
+  padding: 10px 10px 0px 10px;
+}
+
+._title{
+  font-weight: bold;
+  font-size: 1em;
+}
+
+._body{
+ font-weight: normal;
+ font-size: 1em;
+}
+
+._button{
+  text-align: right;
+  border: 10px;
+  position: sticky;
+  bottom: 0px;
+  /*height: 1em;*/
+  border: none;
+  background-color: white;
+  margin-top: 50px;
+  font-size: 0.8em;
+}
+
+._button span{
+  margin-right: 10px;
+  cursor: pointer !important;
+}
+
+._fchildren::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(255,250,250,0.3);
+  background-color: #F5F5F5;
+}
+
+._fchildren::-webkit-scrollbar
+{
+  width: 6px;
+  background-color: #F5F5F5;
+}
+
+._fchildren::-webkit-scrollbar-thumb
+{
+  background-color: #FFDEAD;
+}
+
+
+@media (min-width: 700px) {
+  ._fchildren{
+    width: 40%;
+    margin: 20px 10px 10px 0;
+    height: 150px;
+  }
+  ._title{
+    font-weight: bold;
+    font-size: 0.8em;
+;
+  }
+  ._body{
+;
+    font-weight: normal;
+    font-size: 1.2em;
+
+  }
+}
+
+

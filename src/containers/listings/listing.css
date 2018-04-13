@@ -1,0 +1,15 @@
+._fcontainer{
+	/*display: inline-flex;*/
+	/*flex-direction: row; */
+	/*use a media query to convert direction to coloumn*/
+	/*justify-content: center;*/
+	position: relative;
+}
+
+._underline{
+	border-bottom: 1px solid #DCDCDC;
+	text-align: left;
+	margin-bottom: 5px;
+	color: #DCDCDC;
+}
+

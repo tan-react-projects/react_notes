@@ -1,0 +1,37 @@
+
+._mainPage {
+  text-align: center;
+  width: 75%;
+  margin: 5% auto; 
+}
+
+._saveBtn{
+	border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 10px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    display: inline-block;
+    width: 29%;
+    margin-left: 1%;
+}
+
+@media (min-width: 600px) {
+  ._mainPage{
+    width: 65%;
+  }
+}
+
+@media (min-width: 900px) {
+  ._mainPage{
+    width: 50%;
+  }
+}
